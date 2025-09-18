@@ -8,6 +8,8 @@ const path = require("path");
 // Load the HTML file into jsdom
 const html = fs.readFileSync(path.resolve(__dirname, "../index.html"), "utf-8");
 
+// TODO: These need to be removed. Jsdom creates its on `document` that jsdom provides. This is overridding the
+//       global variable
 // let dom;
 // let document;
 
