@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Louis Medina",
+  "author": "Tiffany Stokley",
   "license": "Included in Repo",
   "jest": {
     "testEnvironment": "jsdom"
